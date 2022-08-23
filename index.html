@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="src/sass/main.scss" />
+     -->
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="module" src="src/js/controller.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo--name">W</h1>
+      <form action="search" class="search--form">
+        <input
+          placeholder="Search for millions of words"
+          class="search"
+          type="text"
+          name="search"
+          id=""
+        />
+        <button class="btn">
+          <div class="svg--icon">
+            <img class="svg search__btn" src="src/images/search.svg" alt="" />
+            <img class="svg close__btn" src="src/images/cross.svg" alt="" />
+          </div>
+          <span class="btn--option">
+            <span class="option search--option">Search</span>
+            <span class="option cancel--option">Cancel</span>
+          </span>
+        </button>
+      </form>
+      <nav class="nav">
+        <div class="nav--el">
+          <img class="nav--svg" src="src/images/bookmarks.svg" alt="" />
+          <button>Bookmarks</button>
+        </div>
+        <div class="nav--el">
+          <img class="nav--svg" src="src/images/history.svg" alt="" />
+          <button>History</button>
+        </div>
+      </nav>
+    </header>
+    <p class="body--words">Look up for words,meaning and others</p>
+    <hr class="hr--colored" />
+    <main class="body"></main>
+  </body>
+</html>
